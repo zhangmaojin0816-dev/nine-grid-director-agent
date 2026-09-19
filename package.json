@@ -1,0 +1,40 @@
+{
+  "name": "nine-grid-director-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI video storyboard prompt workbench with document and reference-image inputs.",
+  "license": "MIT",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "preview": "node scripts/preview.mjs",
+    "test": "vinext build && node --test tests/rendered-html.test.mjs tests/storyboard-settings.test.mjs",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "lucide-react": "^1.44.0",
+    "mammoth": "^1.12.2",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13"
+  },
+  "type": "module"
+}

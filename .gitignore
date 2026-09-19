@@ -1,0 +1,15 @@
+/node_modules/
+/.next/
+/.vinext/
+/dist/
+/coverage/
+/.wrangler/
+/.pnpm-store/
+*.tsbuildinfo
+*.log
+.env*
+!.env.example
+.DS_Store
+*.pem
+*.key
+__pycache__/
