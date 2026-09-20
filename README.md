@@ -18,7 +18,7 @@
 需要 Node.js 22.13 或更高版本。
 
 ```bash
-git clone <你的仓库地址>
+git clone https://github.com/zhangmaojin0816-dev/nine-grid-director-agent.git
 cd nine-grid-director-agent
 npm install
 npm run dev
